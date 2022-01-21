@@ -3,3 +3,9 @@ export const createA = function () {
     dom.id="a";
     return dom;
 }
+
+export const createB = function () {
+    let dom=document.createElement("div");
+    dom.id="b";
+    return dom;
+}
