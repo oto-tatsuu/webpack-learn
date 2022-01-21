@@ -1,2 +1,4 @@
 import getText from './module-a.mjs'
-console.log(getText());
+let div = document.createElement("div");
+div.innerText=getText();
+document.body.appendChild(div);

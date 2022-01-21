@@ -1,0 +1,1 @@
+(()=>{"use strict";let e=document.createElement("div");e.innerText="this is my first webpack test",document.body.appendChild(e)})();
